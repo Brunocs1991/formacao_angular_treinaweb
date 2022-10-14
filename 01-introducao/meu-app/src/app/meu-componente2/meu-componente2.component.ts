@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./meu-componente2.component.scss']
 })
 export class MeuComponente2Component implements OnInit {
+  nome: string = "Bruno"
+  aluno = {
+    dados:{
+      nome: "bruno"
+    }
+  }
 
   constructor() { }
 
